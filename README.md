@@ -12,7 +12,6 @@ The Calculator App is a responsive web calculator built as part of a Frontend Me
   - [Features](#features)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -73,8 +72,6 @@ I also gained more experience creating reusable React components and organizing 
 
 Another valuable lesson was responsive UI design. Small inconsistencies in button sizing became much more noticeable on different screen sizes, which required refining the layout until every button maintained consistent dimensions regardless of the viewport.
 
-Finally, this was my first Frontend Mentor Product Challenge. I was impressed by the amount of detail that goes into designing these challenges. Depending on your experience level, they can be implemented using anything from a simple HTML/CSS/JavaScript stack to a modern framework like React.
-
 ### Continued development
 
 Areas I'd like to continue improving include:
@@ -86,13 +83,6 @@ Areas I'd like to continue improving include:
 - Improving accessibility further
 - Adding animations without affecting usability
 - Exploring state management patterns for larger applications
-
-### Useful resources
-
-- Frontend Mentor
-- MDN Web Docs
-- React Documentation
-- Vite Documentation
 
 ---
 
