@@ -10,7 +10,7 @@ export default function App() {
   const { display, press, del, reset, equals } = useCalculator();
 
   return (
-    <main className="flex min-h-screen md:items-center justify-center bg-bg p-6 transition-colors">
+    <main className="flex min-h-screen items-center justify-center bg-bg p-6 transition-colors">
       <Calculator>
         <Header>
           <Toggle />

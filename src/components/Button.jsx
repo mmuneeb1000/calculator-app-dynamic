@@ -11,8 +11,8 @@ const styles = {
 const textStyles = {
   number: "text-[2rem]",
   operator: "text-[2rem]",
-  delete: "text-base md:text-[1.8rem] tracking-wider",
-  reset: "text-base md:text-[1.8rem] tracking-wider",
+  delete: "text-[1.25rem] md:text-[1.5rem] tracking-wider",
+  reset: "text-[1.25rem] md:text-[1.5rem] tracking-wider",
   equals: "text-[2rem]",
 };
 
