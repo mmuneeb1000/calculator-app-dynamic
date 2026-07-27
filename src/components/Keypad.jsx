@@ -9,7 +9,7 @@ const buttons = [
   { label: "4", type: "number" },
   { label: "5", type: "number" },
   { label: "6", type: "number" },
-  { label: "+", type: "operator" },
+  { label: "×", type: "operator" },
 
   { label: "1", type: "number" },
   { label: "2", type: "number" },
@@ -19,7 +19,7 @@ const buttons = [
   { label: ".", type: "number" },
   { label: "0", type: "number" },
   { label: "/", type: "operator" },
-  { label: "×", type: "operator" },
+  { label: "+", type: "operator" },
 
   { label: "RESET", type: "reset", span: 2 },
   { label: "=", type: "equals", span: 2 },
