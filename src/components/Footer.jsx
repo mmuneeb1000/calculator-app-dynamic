@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
     <footer
-      className="fixed text-sm text-key-text-inverse
-     bottom-2 bg-key-accent/70 rounded-lg px-2 py-1 hidden md:block"
+      className="text-sm text-key-text-inverse
+     bg-key-accent/70 rounded-lg mt-12 px-2 py-1 hidden md:block"
     >
       Challenge by
       <a
