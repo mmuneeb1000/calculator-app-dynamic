@@ -25,7 +25,7 @@ export default function Toggle() {
         className="flex h-8 w-20 cursor-pointer items-center rounded-full bg-bg-secondary p-1 transition"
       >
         <div
-          className={`h-6 w-6 rounded-full border bg-key-accent transition-transform ${
+          className={`h-6 w-6 rounded-full bg-key-accent transition-transform ${
             theme === "theme-1"
               ? "translate-x-0"
               : theme === "theme-2"
