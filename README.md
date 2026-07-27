@@ -1,12 +1,11 @@
-# Frontend Mentor - Calculator App Solution
+# Calculator App Solution - Frontend Mentor
 
-This is a solution to the [Calculator App challenge on Frontend Mentor](https://www.frontendmentor.io). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+The Calculator App is a responsive web calculator built as part of a Frontend Mentor challenge. It recreates a modern calculator interface with support for basic arithmetic operations, multiple color themes, keyboard-friendly interactions, and a responsive layout that adapts across desktop and mobile devices.
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -18,8 +17,6 @@ This is a solution to the [Calculator App challenge on Frontend Mentor](https://
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
-
-The Calculator App is a responsive web calculator built as part of a Frontend Mentor challenge. It recreates a modern calculator interface with support for basic arithmetic operations, multiple color themes, keyboard-friendly interactions, and a responsive layout that adapts across desktop and mobile devices.
 
 The project focuses on clean component structure, state management, accessibility, and creating a polished user experience while closely matching the provided design.
 
@@ -36,16 +33,10 @@ Users should be able to:
 - Interact using both mouse and keyboard
 - See hover and active states for all interactive elements
 
-### Screenshot
-
-![](./preview.jpg)
-
-> Replace `preview.jpg` with your project screenshot.
-
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/
-- Live Site URL: https://your-live-site.com
+- Solution URL: https://www.frontendmentor.io/solutions/simple-calculator-with-react-tailwind-css-and-javascript-Erb_MzcFMv
+- Live Site URL: https://glittering-moxie-2c683e.netlify.app/
 
 ---
 
@@ -54,9 +45,7 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5
-- CSS Custom Properties
-- Flexbox
-- CSS Grid
+- Tailwind CSS
 - Mobile-first workflow
 - JavaScript (ES6+)
 - React
@@ -120,6 +109,4 @@ M.Muneeb
 
 ## Acknowledgments
 
-This is my first Product Challenge on Frontend Mentor. One thing that stood out to me was the amount of thought and detail that goes into every aspect of the design. The challenge is approachable for beginners while still offering enough depth for experienced developers to build with advanced frameworks and techniques.
-
-Thanks to Frontend Mentor for providing another excellent opportunity to practice problem solving, responsive design, and React development.
+Thanks to Frontend Mentor for providing the design.
