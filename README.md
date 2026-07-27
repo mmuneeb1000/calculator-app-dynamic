@@ -1,18 +1,125 @@
-# React + Vite
+# Frontend Mentor - Calculator App Solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Calculator App challenge on Frontend Mentor](https://www.frontendmentor.io). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Features](#features)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-## React Compiler
+## Overview
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+The Calculator App is a responsive web calculator built as part of a Frontend Mentor challenge. It recreates a modern calculator interface with support for basic arithmetic operations, multiple color themes, keyboard-friendly interactions, and a responsive layout that adapts across desktop and mobile devices.
 
-Note: This will impact Vite dev & build performances.
+The project focuses on clean component structure, state management, accessibility, and creating a polished user experience while closely matching the provided design.
 
-## Expanding the ESLint configuration
+### The challenge
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Users should be able to:
+
+- Perform addition, subtraction, multiplication, and division
+- Delete the last entered digit
+- Reset the current calculation
+- Evaluate expressions using the equals button
+- Switch between multiple visual themes
+- View an optimized layout on any screen size
+- Interact using both mouse and keyboard
+- See hover and active states for all interactive elements
+
+### Screenshot
+
+![](./preview.jpg)
+
+> Replace `preview.jpg` with your project screenshot.
+
+### Links
+
+- Solution URL: https://www.frontendmentor.io/solutions/
+- Live Site URL: https://your-live-site.com
+
+---
+
+## My process
+
+### Built with
+
+- Semantic HTML5
+- CSS Custom Properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- JavaScript (ES6+)
+- React
+- Vite
+
+### Features
+
+- Responsive calculator layout
+- Multiple color themes
+- Keyboard input support
+- Expression evaluation
+- Delete and Reset functionality
+- Responsive button sizing
+- Accessible semantic markup
+- Smooth UI interactions
+- Mobile-first design
+
+### What I learned
+
+This project reinforced several important frontend development concepts.
+
+Building a calculator is more challenging than it first appears. Managing calculator state requires carefully handling numbers, operators, decimal points, chained calculations, and resetting the display without introducing inconsistent behavior.
+
+I also gained more experience creating reusable React components and organizing logic so that presentation remains separate from application state.
+
+Another valuable lesson was responsive UI design. Small inconsistencies in button sizing became much more noticeable on different screen sizes, which required refining the layout until every button maintained consistent dimensions regardless of the viewport.
+
+Finally, this was my first Frontend Mentor Product Challenge. I was impressed by the amount of detail that goes into designing these challenges. Depending on your experience level, they can be implemented using anything from a simple HTML/CSS/JavaScript stack to a modern framework like React.
+
+### Continued development
+
+Areas I'd like to continue improving include:
+
+- Supporting more advanced mathematical operations
+- Adding calculation history
+- Improving keyboard shortcuts
+- Writing automated unit tests
+- Improving accessibility further
+- Adding animations without affecting usability
+- Exploring state management patterns for larger applications
+
+### Useful resources
+
+- Frontend Mentor
+- MDN Web Docs
+- React Documentation
+- Vite Documentation
+
+---
+
+## Author
+
+M.Muneeb
+
+- Website - https://webdevpk.store
+- Frontend Mentor - https://www.frontendmentor.io/profile/mmuneeb1000
+- GitHub - https://github.com/mmuneeb1000
+- LinkedIn - https://www.linkedin.com/in/m-muneeb-a9984633b/
+
+---
+
+## Acknowledgments
+
+This is my first Product Challenge on Frontend Mentor. One thing that stood out to me was the amount of thought and detail that goes into every aspect of the design. The challenge is approachable for beginners while still offering enough depth for experienced developers to build with advanced frameworks and techniques.
+
+Thanks to Frontend Mentor for providing another excellent opportunity to practice problem solving, responsive design, and React development.
