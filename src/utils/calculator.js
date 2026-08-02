@@ -52,7 +52,7 @@ export function evaluateExpression(expression) {
       return "Error";
     }
 
-    return String(result);
+    return String(Number(result.toFixed(5)));
   } catch {
     return "Error";
   }

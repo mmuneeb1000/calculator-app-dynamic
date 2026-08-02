@@ -1,11 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
-  <!-- Minimalist Rounded Square Background with #CA5502 fill -->
-  <rect x="32" y="32" width="448" height="448" rx="96" fill="#CA5502" />
-
-  
-  <path d="M 247 256 L 347 256 M 297 206 L 297 306" 
-        stroke="#FFFFFF" 
-        stroke-width="60" 
-        stroke-linecap="round" 
-        stroke-linejoin="round" />
-</svg>
+{
+    "user": {
+        "id": "6d11ebc5-ef4f-46b3-b4a6-a2be3d527acd",
+        "aud": "authenticated",
+        "role": "authenticated",
+        "email": "admin@origincoffee.com",
+        "email_confirmed_at": "2026-07-28T20:52:10.887811Z",
+        "phone": "",
+        "confirmed_at": "2026-07-28T20:52:10.887811Z",
+        "last_sign_in_at": "2026-07-28T21:54:48.74041126Z",
+        "app_metadata": {
+            "provider": "email",
+            "providers": [
+                "email"
+            ]
+        },
+        "user_metadata": {
+            "email_verified": true
+        },
+        "identities": [
+            {
+                "identity_id": "2d667948-4ea1-40af-95ce-858abfe4ac58",
+                "id": "6d11ebc5-ef4f-46b3-b4a6-a2be3d527acd",
+                "user_id": "6d11ebc5-ef4f-46b3-b4a6-a2be3d527acd",
+                "identity_data": {
+                    "email": "admin@origincoffee.com",
+                    "email_verified": false,
+                    "phone_verified": false,
+                    "sub": "6d11ebc5-ef4f-46b3-b4a6-a2be3d527acd"
+                },
+                "provider": "email",
+                "last_sign_in_at": "2026-07-28T20:52:10.876407Z",
+                "created_at": "2026-07-28T20:52:10.876462Z",
+                "updated_at": "2026-07-28T20:52:10.876462Z",
+                "email": "admin@origincoffee.com"
+            }
+        ],
+        "created_at": "2026-07-28T20:52:10.865277Z",
+        "updated_at": "2026-07-28T21:54:48.770819Z",
+        "is_anonymous": false
+    },
+    "session": {
+        "access_token": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjY1NjJiNmJhLTg0ZmItNGQzMi05YmZhLWQzYzNiZDllOTAzMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL21wc3huZ3VjcWlsenZtbnNkcnZ0LnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI2ZDExZWJjNS1lZjRmLTQ2YjMtYjRhNi1hMmJlM2Q1MjdhY2QiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzg1Mjc5Mjg4LCJpYXQiOjE3ODUyNzU2ODgsImVtYWlsIjoiYWRtaW5Ab3JpZ2luY29mZmVlLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnsiZW1haWxfdmVyaWZpZWQiOnRydWV9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzg1Mjc1Njg4fV0sInNlc3Npb25faWQiOiJiYjRiODBmOC1mZjU1LTQ5N2ItOTQxYi0xM2VmOTMzNGY4YzYiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.KOga7m0qxDxwRb6oiJWBn6MPoKhNUZ35R3u65g8neTCN0Ve3Cp6tfQw2v2c_UAPjYFLnrSlU8Gxs46IPpdh9CA",
+        "token_type": "bearer",
+        "expires_in": 3600,
+        "expires_at": 1785279288,
+        "refresh_token": "6zmuz7fp3e44",
+        "user": {
+            "id": "6d11ebc5-ef4f-46b3-b4a6-a2be3d527acd",
+            "aud": "authenticated",
+            "role": "authenticated",
+            "email": "admin@origincoffee.com",
+            "email_confirmed_at": "2026-07-28T20:52:10.887811Z",
+            "phone": "",
+            "confirmed_at": "2026-07-28T20:52:10.887811Z",
+            "last_sign_in_at": "2026-07-28T21:54:48.74041126Z",
+            "app_metadata": {
+                "provider": "email",
+                "providers": [
+                    "email"
+                ]
+            },
+            "user_metadata": {
+                "email_verified": true
+            },
+            "identities": [
+                {
+                    "identity_id": "2d667948-4ea1-40af-95ce-858abfe4ac58",
+                    "id": "6d11ebc5-ef4f-46b3-b4a6-a2be3d527acd",
+                    "user_id": "6d11ebc5-ef4f-46b3-b4a6-a2be3d527acd",
+                    "identity_data": {
+                        "email": "admin@origincoffee.com",
+                        "email_verified": false,
+                        "phone_verified": false,
+                        "sub": "6d11ebc5-ef4f-46b3-b4a6-a2be3d527acd"
+                    },
+                    "provider": "email",
+                    "last_sign_in_at": "2026-07-28T20:52:10.876407Z",
+                    "created_at": "2026-07-28T20:52:10.876462Z",
+                    "updated_at": "2026-07-28T20:52:10.876462Z",
+                    "email": "admin@origincoffee.com"
+                }
+            ],
+            "created_at": "2026-07-28T20:52:10.865277Z",
+            "updated_at": "2026-07-28T21:54:48.770819Z",
+            "is_anonymous": false
+        },
+        "weak_password": null
+    },
+    "access_token": "eyJhbGciOiJFUzI1NiIsImtpZCI6IjY1NjJiNmJhLTg0ZmItNGQzMi05YmZhLWQzYzNiZDllOTAzMiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL21wc3huZ3VjcWlsenZtbnNkcnZ0LnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI2ZDExZWJjNS1lZjRmLTQ2YjMtYjRhNi1hMmJlM2Q1MjdhY2QiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzg1Mjc5Mjg4LCJpYXQiOjE3ODUyNzU2ODgsImVtYWlsIjoiYWRtaW5Ab3JpZ2luY29mZmVlLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnsiZW1haWxfdmVyaWZpZWQiOnRydWV9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzg1Mjc1Njg4fV0sInNlc3Npb25faWQiOiJiYjRiODBmOC1mZjU1LTQ5N2ItOTQxYi0xM2VmOTMzNGY4YzYiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.KOga7m0qxDxwRb6oiJWBn6MPoKhNUZ35R3u65g8neTCN0Ve3Cp6tfQw2v2c_UAPjYFLnrSlU8Gxs46IPpdh9CA",
+    "refresh_token": "6zmuz7fp3e44"
+}
